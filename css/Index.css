@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+
+.head-group{
+    height:100vh;
+    width:100%;
+    background-image: url(../image/padmaja-background.jpg);
+    background-size:cover ;
+    background-position: center;
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.name{
+   color: teal;
+   font-size: 35px; 
+}
+
+span{
+   color:rgb(1, 77, 77);
+   font-size: 35px; 
+}
+
+nav ul li a{
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: black;
+    transition:  1s;
+}
+
+.btn{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.btn:hover{
+    transform:scale(2);
+    background-color: transparent;
+    border: 2px solid rgb(173, 102, 102);
+    color:  green;
+}
+.content{
+    top:75;
+    left:10;
+    position:absolute;
+    transform: translate(50%,50%);
+}
+
+h3{
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+h4{
+    color:brown;
+}
+
+.subscribe form{
+    width: 400px;
+    position: relative;
+}
+
+.subscribe form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 15px 120px 13px 14px;
+    border: 3px solid red;
+    border-radius: 40px;
+}
+
+.subscribe form input:last-child{
+    display: inline-block;
+    padding: 11px  13px ;
+    border: none;
+    background-color: red;
+    color: white;
+    top: 6px;
+    right: 7px;
+    border-radius: 40px;
+    position: absolute;
+}
+
+.about-me{
+    width:100%;
+    background-color: rgb(56, 87, 87);
+
+}
+
+.about-me img{
+    height: 300px;
+    width: auto;
+}
+
+.about-content{
+    color:aquamarine;
+    margin: 30px;
+}
+
+.main{
+    display: flex;
+}
+
+.about-content h3{
+    color:aliceblue;
+    font-size: 40px;
+}
+
+.about-content h5{
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.about-content p{
+    letter-spacing: 1px;
+}
+
+.btn-talk{
+    background-color: rgb(173, 102, 102);
+    color: white;
+    font-weight: bold;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.btn-talk:hover{
+    background-color: transparent;
+    border: 2px solid rgb(173, 102, 102);
+    cursor: pointer;
+}
+
+
+.skills{
+    background-color: rgb(56, 87, 87);
+    width: 100%;
+}
+
+.title h2{
+    color: rgb(141, 243, 141);
+    font-size: 60px;
+    text-align: center;
+}
+
+.skill-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    height: 100%;
+    width: 100%;
+    background:rgb(164, 226, 164);
+    border-radius: 25px;
+    margin: 10px;
+    align-items: center;
+    
+}
+
+.card h4{
+    text-align: center; 
+}
+.para p{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.para .button{
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: brown;
+    align-content: center;
+    color: aliceblue;
+    padding: 10px 20px;
+}
+.para .button:hover{
+    background-color: transparent;
+    border: solid brown;
+    color:black;
+}
+
+.card i{
+    text-align: center;
+    margin: 15px 0;
+    display:block;
+}
+
+.hire{
+    width: 100%;
+    align-content: center;
+    height:100px ;
+    background-color: rgb(113, 158, 158);
+}
+
+.hire h3{
+    font-size: 30px;
+    color:aquamarine;
+    margin-left:40%;
+}
+.hire .button{
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: brown;
+    align-content: center;
+    color: aliceblue;
+    padding: 10px 20px;
+    margin-left:50%;
+}
+
+.hire .button:hover{
+    background-color: transparent;
+    border: solid brown;
+    color:black; 
+    transition: .5s;
+}
+
+.Footer{
+    width: 100%;
+    background:rgb(48, 71, 71);
+    justify-content: center;
+}
+
+.Footer .author{
+    font-size: 25px;
+    color:azure;
+    font-weight: bold;
+
+}
+
+.Footer .reach{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+.Footer .social-media a{
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    border-radius: 50%;
+    background: brown;
+    color: aliceblue; 
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.social-media a:hover{
+    background-color: transparent;
+    border: solid brown;
+    color:black; 
+    transition: .5s;   
+}
